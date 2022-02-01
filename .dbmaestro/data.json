@@ -1,4 +1,30 @@
 {
-  "Projects": [],
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "4f532118-139d-408f-b1e2-540a571304c2",
+        "ProjectName": "Source_Control_Projects",
+        "DBTypeName": "SQL Server",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "BuildMethod": 0,
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "BuildDeploymentScriptOnPush": false,
+          "PreventCommitObjectWithConflict": false
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": "C:\\Users\\oriba\\OneDrive\\מסמכים\\Project name"
+      },
+      "UserData": [
+        {
+          "UserName": "DBmaestro-tester-1",
+          "DatabasesData": []
+        }
+      ]
+    }
+  ],
   "GlobalConfigurations": null
 }
