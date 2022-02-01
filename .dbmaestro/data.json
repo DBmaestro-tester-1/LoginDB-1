@@ -5,7 +5,26 @@
         "ProjectId": "4f532118-139d-408f-b1e2-540a571304c2",
         "ProjectName": "Source_Control_Projects",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "f90d597e-22b3-4b6a-8600-5c42fab42430",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "aaa3b8d9-2848-454b-8b10-8c3618f85550",
+                "DatabaseAliasName": "TestDB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/DBmaestro-tester-1/Tester-1-DB-1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -21,7 +40,30 @@
       "UserData": [
         {
           "UserName": "DBmaestro-tester-1",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "aaa3b8d9-2848-454b-8b10-8c3618f85550",
+              "DatabaseAliasName": "TestDB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "Host": "DESKTOP-QRENPS9",
+                    "AuthenticationType": 1,
+                    "Username": "sa",
+                    "Password": "vbLKOZKlYST0gygAbrmU+Q==",
+                    "DatabaseName": "SC_User_1"
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "DBmaestro-tester-1",
+                "Password": "Rm8lmecJMuNrSl6wfrrOVAoOEx/VY9lATt8u2yw3okKDVYCNCgDuV5ERzcibAxyt"
+              }
+            }
+          ]
         }
       ]
     }
